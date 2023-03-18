@@ -1,0 +1,44 @@
+#av {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 200px;
+
+}
+
+.cell {
+    border: 2px solid #333;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+table {
+    margin: auto;
+}
+
+.replay {
+    color: white;
+    background-color: black;
+    padding: 20px 30px;
+    font-size: 1.2rem;
+}
+
+.endgame {
+    #result {
+        font-size: 2rem;
+        color: green;
+    }
+}
+
+button {
+    background-color: white;
+    color: black
+}
